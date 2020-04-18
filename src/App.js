@@ -17,7 +17,7 @@ function App() {
 		<img src={infra} alt=""/>
 		<div className="row">
 			<div class="col">
-				<h2>Jenncy Villamizar Rodriguez</h2>
+				<h2>J</h2>
 				<img src={jenncy} height="300" width="300" alt=""/>
 				<p>Estudiante de Noveno Semestre de ingeniería Informática de la Universidad de La Sabana.</p>
 			</div>

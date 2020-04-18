@@ -52,9 +52,9 @@ jobs:
             - v1-dependencies-
       - add_ssh_keys:
           fingerprints:
-            - "e9:ec:9e:6b:38:6d:b2:f8:32:6b:82:79:cd:7b:68:e9"
+            - "a4:8b:b7:94:e5:e8:72:5f:3c:57:ba:d6:02:cf:69:6a"
       - run: yarn run build
-      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.234.41.131:/var/www/html
+      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.224.38.166:/var/www/html
       - save_cache:
           paths:
             - node_modules
@@ -73,9 +73,9 @@ jobs:
             - v1-dependencies-
       - add_ssh_keys:
           fingerprints:
-            - "e9:ec:9e:6b:38:6d:b2:f8:32:6b:82:79:cd:7b:68:e9"
+            - "a4:8b:b7:94:e5:e8:72:5f:3c:57:ba:d6:02:cf:69:6a"
       - run: yarn run build
-      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@34.237.176.104:/var/www/html
+      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.191.208.238:/var/www/html
       
       - save_cache:
           paths:

@@ -54,7 +54,7 @@ jobs:
           fingerprints:
             - "a4:8b:b7:94:e5:e8:72:5f:3c:57:ba:d6:02:cf:69:6a"
       - run: yarn run build
-      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.224.38.166:/var/www/html
+      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.220.213.233:/var/www/html
       - save_cache:
           paths:
             - node_modules
@@ -75,7 +75,7 @@ jobs:
           fingerprints:
             - "a4:8b:b7:94:e5:e8:72:5f:3c:57:ba:d6:02:cf:69:6a"
       - run: yarn run build
-      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@18.191.208.238:/var/www/html
+      - run: scp -o StrictHostKeyChecking=no -r ./build/* ubuntu@3.17.80.32:/var/www/html
       
       - save_cache:
           paths:
